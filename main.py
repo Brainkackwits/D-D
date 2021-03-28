@@ -1,6 +1,8 @@
 import os
-import hashlib
-class login()
-    def __init__(self,name,password):
-        self.name = name
-        self.password = password
+import time
+class statics()
+    def __init__(self):
+        self.path = os.path.abspath(__file__)
+        pass
+
+print(os.path.abspath(__file__))
